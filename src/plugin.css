@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+@tailwind utilities;
+@tailwind components;
+@tailwind base;
+
+@layer base {
+    body {
+        @apply bg-gray-900 text-gray-100 antialiased;
+        font-synthesis: none;
+        text-rendering: optimizeLegibility;
+    }
+    button {
+        background: none;
+        outline: none;
+        line-height: 1rem;
+        text-align: inherit;
+    }
+}
